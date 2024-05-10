@@ -21,13 +21,13 @@ auto_sqlamin 基于sqladmin，通过动态配置类，无需写ORM代码，快�
     2. 新建类
     3. 新建属性：（默认创建类时会自动创建id、name、create_date、update_date四个属性）
     4. 新建（约束、索引、外键、关系）根据需要：
-    5. 执行编译
-    6. 执行迁移
+    5. 执行编译（在类的action中）
+    6. 执行迁移（在类的action中）
     7. 新建视图：完善参数设置
     8. 权限控制：
         1. 默认管理员可以看到所有内容
         2. 普通用户可以通过绑定角色，并在视图设置中关联角色控制菜单权限
-        ![D071021C-0238-44d6-94BC-22EA29DF1510](https://github.com/maxiaojunwolf/auto_sqladmin/assets/34365493/cf2b1fea-a84a-44e6-a3f6-4ca00244e192)
+
 
 # 5. 说明：
     1. 如何修改默认ORM，执行迁移: 通过设置alembic.env.dynamic_only属性控制迁移固定类还是动态类
