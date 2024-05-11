@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.venv
+venv/
+.idea/
+.tmp/
+.env
+data/
+alembic/versions
+requirements.txt
+tests/
+tmp/
+static/
+alembic.ini
+
